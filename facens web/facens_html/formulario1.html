@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exmplo de formulario</title>
+</head>
+<body>
+    <form action="https://64f26b40edfa0459f6c5df12.mockapi.io/api/v1/cliente" method="post"></form>
+    <fieldset>
+        <legend>Dados do cliente </legend>
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" name="name" id="nome" placeholder="digite o seu nome" >
+            
+
+
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="e-mail" id="email" placeholder="Diite o seu email" required>
+
+        </p>
+
+        <p>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="tel" id="telefone" placeholder="Diite seu telefone" required>
+        </p>
+
+        <p>
+            <button type="submit">Salvar</button>
+        </p>
+
+    </fieldset>
+</body>
+</html>
